@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- link to cascading style sheet -->
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+
+<title>Login</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<!-- links to other pages -->
+	 <a href="home">Home</a>
+     <a href="registration">Registration</a> 
+
+    <form action="" method="post">
+      <br>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username">
+      </div>
+      <br>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+      </div>
+      <br>
+      <div>
+        <input type="submit" class="submit" value="Log In">
+      </div>
+    </form>
+    {% if count >= 1 %}
+        <p> 
+          <strong>ip address: </strong> {{ip_address}}
+          <br>
+          <strong>time stamp: </strong> {{time_stamp}}
+          <br>
+          <strong>Failed Login Count:</strong> {{ count }}
+        </p>
+    {% endif %}
+</body>
+</html>

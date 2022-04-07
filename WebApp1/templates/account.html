@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- link to cascading style sheet -->
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+	<title>Account</title>
+</head>
+<body>
+     <h1>Account</h1>
+	<!-- links to other pages -->
+	 <a href="home">Home</a>
+	 <a href="about">About</a> 
+     <a href="recipes">Recipes</a> 
+     <a href="logout">Logout</a> 
+
+	<br>
+    <h2>Current User: {{ current_user.username }}</h2>
+    <h2><a href="reset_password">Reset Password</a></h2>
+
+</body>
+</html>

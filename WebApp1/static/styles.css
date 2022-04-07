@@ -1,0 +1,60 @@
+body {
+  background-color: darkorange;
+}
+
+h1 {
+  color: blue;
+}
+h2 {
+  color: blue;
+}
+h3{
+	color: blue;
+}
+a{
+	color: blue;
+}
+a:visited{
+	color: white;
+}
+
+p: {
+  color: blue;
+}
+
+ol {
+	color: blue;
+}
+
+img {
+  max-width: 40%;
+}
+
+table {
+    border: 1px solid black;
+    max-width: 50%
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+div {
+	border: "2";
+	max-width: 50%;
+	margin-bottom: 2 px;
+	border-color: blue
+}
+
+label {
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 5px;
+}
+      input.submit {
+	margin-left: 150px;
+}
+
+
